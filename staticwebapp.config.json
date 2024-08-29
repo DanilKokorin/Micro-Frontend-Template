@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/vue",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/react",
+      "rewrite": "/index.html"
+    }
+  ]
+}

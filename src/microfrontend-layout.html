@@ -1,0 +1,16 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+  <main>
+    <route default>
+      <application name="@micro-frontend-app/react"></application>
+    </route>
+    <route path="vue">
+      <application name="@micro-frontend-app/vue"></application>
+    </route>
+  </main>
+</single-spa-router>
